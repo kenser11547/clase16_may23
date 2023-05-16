@@ -2,7 +2,7 @@
 
 try {
     $conexion = new PDO("informix:host=host.docker.internal; service=9088;database=mdn; server=informix; protocol=onsoctcp;EnableScrollableCursors=1", "informix", "in4mix");
-    echo "conexión exitosa";
+    echo "Conexión Exitosa";
 } catch (PDOException $e) {
     echo "NO SE CONECTO A LA BD";
     echo "<br>";
